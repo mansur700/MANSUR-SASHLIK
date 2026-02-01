@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* OTA DIV */
+.asosiy {
+    width: 1526px;
+    height: 729px;
+    margin: 0 auto;
+    border: 3px solid rgb(15, 15, 15);
+    /* faqat ko‘rish uchun */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* BOLA DIV */
+.bola0 {
+    width: 1526px;
+    height: 729px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    /* overlay uchun kerak */
+}
+
